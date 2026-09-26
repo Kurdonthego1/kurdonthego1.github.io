@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zana Osman — Software Engineer</title>
+  <meta name="description" content="Zana Osman is a software engineer building reliable, well-crafted software across the stack.">
+  <meta property="og:title" content="Zana Osman — Software Engineer">
+  <meta property="og:description" content="Software engineer building reliable, well-crafted software across the stack.">
+  <meta property="og:url" content="https://zanaosman.com/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b0f14">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b0f14'/><text x='50' y='66' font-family='monospace' font-size='52' font-weight='700' text-anchor='middle' fill='%2334d399'>Z_</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to avoid a flash.
+    document.documentElement.classList.add('js');
+    try {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="logo" aria-label="Home">
+        <span class="logo-prompt">~/</span>zana<span class="cursor" aria-hidden="true">_</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about"><span class="num">01.</span>about</a></li>
+        <li><a href="#experience"><span class="num">02.</span>experience</a></li>
+        <li><a href="#projects"><span class="num">03.</span>projects</a></li>
+        <li><a href="#skills"><span class="num">04.</span>skills</a></li>
+        <li><a href="#contact"><span class="num">05.</span>contact</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero container" id="top">
+      <div class="hero-text">
+        <p class="eyebrow mono">Hi, my name is</p>
+        <h1 class="hero-name">Zana Osman.</h1>
+        <h2 class="hero-tagline">I build software that <span class="accent" id="typed">scales</span>.</h2>
+        <p class="hero-lede">
+          I'm a software engineer who enjoys turning messy, real-world problems into clean,
+          reliable systems — from backend services and APIs to fast, accessible interfaces.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="hero-social" aria-label="Social links">
+          <li><a href="https://github.com/kurdonthego1" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+          </a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a></li>
+          <li><a href="mailto:hello@zanaosman.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="stroke"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          </a></li>
+        </ul>
+      </div>
+
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title mono">zana@dev: ~</span>
+        </div>
+        <pre class="terminal-body mono"><code><span class="t-prompt">$</span> whoami
+<span class="t-out">zana osman — software engineer</span>
+
+<span class="t-prompt">$</span> cat stack.json
+<span class="t-out">{
+  <span class="t-key">"languages"</span>: [<span class="t-str">"TypeScript"</span>, <span class="t-str">"Python"</span>, <span class="t-str">"Go"</span>],
+  <span class="t-key">"frontend"</span>:  [<span class="t-str">"React"</span>, <span class="t-str">"Next.js"</span>],
+  <span class="t-key">"backend"</span>:   [<span class="t-str">"Node"</span>, <span class="t-str">"PostgreSQL"</span>],
+  <span class="t-key">"cloud"</span>:     [<span class="t-str">"AWS"</span>, <span class="t-str">"Docker"</span>]
+}</span>
+
+<span class="t-prompt">$</span> git status
+<span class="t-out">On branch <span class="t-str">main</span>
+<span class="t-ok">✓ open to new opportunities</span></span>
+
+<span class="t-prompt">$</span> <span class="cursor-block"></span></code></pre>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container reveal" id="about">
+      <h2 class="section-title"><span class="num">01.</span>About me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a software engineer who cares about the whole lifecycle of a product — from
+            designing data models and APIs to shipping polished user interfaces and keeping
+            things running smoothly in production.
+          </p>
+          <p>
+            I like working close to the problem: talking with users, measuring what matters,
+            and iterating quickly. I value readable code, thoughtful tests, and systems that
+            are boring in the best possible way.
+          </p>
+          <p>
+            Outside of work you'll find me contributing to open source, reading about
+            distributed systems, or tinkering with side projects that probably didn't need
+            to be written in Rust.
+          </p>
+        </div>
+        <ul class="stats">
+          <li><span class="stat-num" data-count="5">0</span><span class="stat-plus">+</span><span class="stat-label">years building software</span></li>
+          <li><span class="stat-num" data-count="20">0</span><span class="stat-plus">+</span><span class="stat-label">projects shipped</span></li>
+          <li><span class="stat-num" data-count="10">0</span><span class="stat-plus">+</span><span class="stat-label">technologies in daily use</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section container reveal" id="experience">
+      <h2 class="section-title"><span class="num">02.</span>Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-meta mono">2023 — Present</div>
+          <div class="timeline-card">
+            <h3>Software Engineer <span class="at">@ Company Name</span></h3>
+            <ul>
+              <li>Designed and shipped customer-facing features used by thousands of users each day.</li>
+              <li>Cut p95 API latency by 40% by reworking queries, adding caching, and profiling hot paths.</li>
+              <li>Led migration of legacy services to containerized deployments with CI/CD pipelines.</li>
+            </ul>
+            <ul class="tags"><li>TypeScript</li><li>React</li><li>Node.js</li><li>PostgreSQL</li><li>AWS</li></ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-meta mono">2021 — 2023</div>
+          <div class="timeline-card">
+            <h3>Junior Software Engineer <span class="at">@ Company Name</span></h3>
+            <ul>
+              <li>Built internal tools that automated manual reporting, saving the team hours every week.</li>
+              <li>Improved test coverage on core modules and introduced end-to-end tests.</li>
+              <li>Collaborated with design and product to deliver accessible, responsive UIs.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>Django</li><li>JavaScript</li><li>Docker</li></ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-meta mono">2017 — 2021</div>
+          <div class="timeline-card">
+            <h3>B.Sc. Computer Science <span class="at">@ University Name</span></h3>
+            <ul>
+              <li>Focused on algorithms, distributed systems, and software engineering.</li>
+              <li>Capstone: a real-time collaborative app built with WebSockets.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container reveal" id="projects">
+      <h2 class="section-title"><span class="num">03.</span>Things I've built</h2>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter is-active" data-filter="all">all</button>
+        <button class="filter" data-filter="web">web</button>
+        <button class="filter" data-filter="backend">backend</button>
+        <button class="filter" data-filter="tooling">tooling</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" data-category="web">
+          <div class="project-top">
+            <svg class="folder" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/kurdonthego1" target="_blank" rel="noopener" aria-label="Source code">code</a>
+              <a href="#" aria-label="Live demo">live ↗</a>
+            </div>
+          </div>
+          <h3>DevBoard</h3>
+          <p>A real-time dashboard for tracking deploys, incidents, and team velocity with live updates over WebSockets.</p>
+          <ul class="tags"><li>Next.js</li><li>WebSockets</li><li>Tailwind</li></ul>
+        </article>
+
+        <article class="project-card" data-category="backend">
+          <div class="project-top">
+            <svg class="folder" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/kurdonthego1" target="_blank" rel="noopener" aria-label="Source code">code</a>
+            </div>
+          </div>
+          <h3>RateGate</h3>
+          <p>A lightweight, distributed rate-limiting service with a token-bucket algorithm backed by Redis.</p>
+          <ul class="tags"><li>Go</li><li>Redis</li><li>gRPC</li></ul>
+        </article>
+
+        <article class="project-card" data-category="tooling">
+          <div class="project-top">
+            <svg class="folder" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/kurdonthego1" target="_blank" rel="noopener" aria-label="Source code">code</a>
+            </div>
+          </div>
+          <h3>commitcraft</h3>
+          <p>A CLI that lints commit messages and generates changelogs from conventional commits.</p>
+          <ul class="tags"><li>Rust</li><li>CLI</li><li>Git</li></ul>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-top">
+            <svg class="folder" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/kurdonthego1" target="_blank" rel="noopener" aria-label="Source code">code</a>
+              <a href="#" aria-label="Live demo">live ↗</a>
+            </div>
+          </div>
+          <h3>Recipe Finder</h3>
+          <p>A fast, offline-first PWA for searching recipes by ingredients you already have.</p>
+          <ul class="tags"><li>React</li><li>PWA</li><li>IndexedDB</li></ul>
+        </article>
+
+        <article class="project-card" data-category="backend">
+          <div class="project-top">
+            <svg class="folder" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/kurdonthego1" target="_blank" rel="noopener" aria-label="Source code">code</a>
+            </div>
+          </div>
+          <h3>Ledger API</h3>
+          <p>A double-entry bookkeeping REST API with idempotent writes, audit logs, and OpenAPI docs.</p>
+          <ul class="tags"><li>Python</li><li>FastAPI</li><li>PostgreSQL</li></ul>
+        </article>
+
+        <article class="project-card" data-category="tooling">
+          <div class="project-top">
+            <svg class="folder" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/kurdonthego1" target="_blank" rel="noopener" aria-label="Source code">code</a>
+            </div>
+          </div>
+          <h3>dotfiles</h3>
+          <p>My reproducible dev environment: shell, editor, and tooling configs bootstrapped in one command.</p>
+          <ul class="tags"><li>Shell</li><li>Neovim</li><li>Nix</li></ul>
+        </article>
+      </div>
+
+      <div class="center">
+        <a class="btn btn-ghost" href="https://github.com/kurdonthego1" target="_blank" rel="noopener">More on GitHub ↗</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container reveal" id="skills">
+      <h2 class="section-title"><span class="num">04.</span>Skills &amp; tools</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="mono">// languages</h3>
+          <ul class="chips"><li>TypeScript</li><li>JavaScript</li><li>Python</li><li>Go</li><li>SQL</li><li>Java</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="mono">// frontend</h3>
+          <ul class="chips"><li>React</li><li>Next.js</li><li>HTML &amp; CSS</li><li>Tailwind</li><li>Accessibility</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="mono">// backend</h3>
+          <ul class="chips"><li>Node.js</li><li>FastAPI</li><li>REST &amp; GraphQL</li><li>PostgreSQL</li><li>Redis</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="mono">// devops &amp; cloud</h3>
+          <ul class="chips"><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>GitHub Actions</li><li>Terraform</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="mono">// practices</h3>
+          <ul class="chips"><li>System design</li><li>Testing</li><li>Code review</li><li>Observability</li><li>Agile</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container reveal contact" id="contact">
+      <p class="mono eyebrow"><span class="num">05.</span>What's next?</p>
+      <h2 class="contact-title">Let's build something together.</h2>
+      <p class="contact-text">
+        I'm currently open to new opportunities and interesting collaborations.
+        Whether you have a role in mind, a project idea, or just want to say hi —
+        my inbox is always open.
+      </p>
+      <a class="btn btn-primary btn-lg" href="mailto:hello@zanaosman.com">Say hello</a>
+      <button class="copy-email mono" data-email="hello@zanaosman.com">
+        hello@zanaosman.com <span class="copy-hint">click to copy</span>
+      </button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner mono">
+      <span>© <span id="year">2026</span> Zana Osman</span>
+      <span>Built with plain HTML, CSS &amp; JS · Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
